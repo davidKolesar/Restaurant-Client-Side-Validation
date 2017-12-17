@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link href="restaurantStyle7.css" rel="stylesheet" type="text/css"/>
+		<link href='https://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
+		<noscript><h2 style="color:#FF0000; text-align: center">We've noticed you have Javascript disabled! This site is best viewed with Javascript.</h2></noscript>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+			<style>
+                                
+                            input {
+                                color: black;
+                            }
+                            
+				#background {
+					background-image: url(https://pixabay.com/static/uploads/photo/2015/07/31/06/50/forest-868715_960_720.jpg);
+					background-size: 100% 100%;
+					}
+				
+				hr {
+					padding: 0px;
+					margin: 0px;    
+					}
+				
+				.carousel-inner > .item > img,
+				.carousel-inner > .item > a > img {
+					width: 70%;
+					margin: auto;
+					}
+ 
+				.carousel-caption {	
+					color: #FFFF00;
+					background-color: black;
+					font-family:bold;
+					}
+				
+				.btn-custom {  
+					background-color: #000;
+					border-color: #000;
+					color: #000;
+					}
+					
+				.btn-custom:hover {
+				   background-color: #000;
+				   border-color: #000;
+				   color: #000;
+				}
+				
+			</style>
+		<title>Home Page</title>
+	</head>
+	<body style = "background-image: url(https://pixabay.com/static/uploads/photo/2015/12/01/20/28/green-1072828_960_720.jpg); background-size: 100%; color: white">
+		<center>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">																	
+						<div class="container">
+						  <br>
+						  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+							  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							  <li data-target="#myCarousel" data-slide-to="1"></li>
+							  <li data-target="#myCarousel" data-slide-to="2"></li>
+							</ol>
+							
+							<!-- First Carousel Slide-->
+							<div class="carousel-inner" role="listbox">
+							  <div class="item active">
+								<img style ="width: 760px; height:435px" src="https://pixabay.com/static/uploads/photo/2014/12/11/02/19/the-hobby-563754_960_720.jpg" alt="New Building">
+							  <div class="carousel-caption">
+								  <h3>Visit Our New Location</h3>
+								  <p>Located at 1555 University Drive, State College Pennsylvania.</p>
+								  <p>10 minutes from campus!</p>
+								</div>
+							</div>
+
+							<!-- Second Carousel Slide-->
+							  <div class="item">
+								<img style ="width: 760px; height:435px" src="https://pixabay.com/static/uploads/photo/2014/01/16/00/57/chicken-wings-246167_960_720.jpg" alt="Seasonal Menu">
+							<div class="carousel-caption">
+								  <h3>New Summer Seasonal Menu Additions</h3>
+								  <p>Come try our Bilbo Baggins Barbeque Summer Sauce!</p>
+								</div>
+							</div>
+							
+							
+							<!-- Third Carousel Slide-->
+							  <div class="item">
+								<img style ="width: 760px; height:435px" src="https://pixabay.com/static/uploads/photo/2013/10/23/09/05/beer-199652_960_720.jpg" alt="Seasonal Menu">
+							<div class="carousel-caption">
+								  <h3>The Drink of the Month is SG Special Brew</h3>
+								  <p>Hello, World! This drink is very user friendly</p>
+								</div>
+							</div>
+
+							<!-- Carousel Controls -->
+							<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							  <span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							  <span class="sr-only">Next</span>
+							</a>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</center>
+	<br>
+	<br>
+	<div id="header">
+		<h1 style="color:#FFFF00">Lord of the Wings</h1>
+	</div>	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4 col-md-12">
+				<button class="btn btn-lg btn-custom" type="button">
+					<ul class="nav nav-tabs">
+						<li style="color:#FFA500; background: #000" role="presentation" class="active"><a href="restaurantSiteHomeV7.html"><span class="glyphicon glyphicon-home"></span></a></li>
+						<li style="color:#FFA500; background: #000" style="color:#FFA500" role="presentation"><a href="restaurantSiteMenuV7.html">Menu</a></li>
+						<li style="color:#FFA500; background: #000" role="presentation"><a href="restaurantSiteContactUsV7.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</button>
+		<div id="background">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-4"></div>
+					<div class="col-sm-4">
+						<br>
+						<br>
+						<table>
+                                                    <form name="nameForm">
+							<tr  class="spaceUnder">
+								<td align="right">Name:</td>
+                                                                <td><input type="text" style="width:45%" Id="nameInput"</td>
+							</tr>
+                                                    </form>
+                                                    <form name="contactForm">
+							<tr class="spaceUnder">
+								<td align="right" style="width:45%">Email:</td>
+								<td><input type="text" style="width:45%" Id="emailInput"</td>
+							</tr>
+							<tr class="spaceUnder">
+								<td align="right" style="width:45%">Phone:</td>
+								<td><input type="text" style="width:45%" Id="phoneInput"</td>
+							</tr>
+                                                    </form> 
+                                                    <form name="reasonForm">
+							<tr class="spaceUnder">
+								<td align="right" style="width:45%">Reason:</td> 
+								<td><select Id="selector"style="color: black" name="select elements" style="width:45%">
+									<br>
+									<br>
+									<option value="1">Catering</option>
+									<option value="2">Private Party</option>
+									<option value="3">Feedback</option>
+									<option value="4">Other</option>
+								</select>
+								</td>			
+							</tr>
+							<tr  class="spaceUnder">
+								<td align="right" style="width:45">Additional Information:</td>
+								<td><input type="text" Id="addInput" style="color: black; width:65%; height 45%;"></td>
+                                                        </tr>
+                                                    </form>
+							<tr class="spaceUnder">
+								<td align="right" style="width:45%">Have you been to the restaurant?</td>
+								<td><input type="radio" name="business" value="yes" checked>Yes <input type="radio" name="personal" value="no">No</td>
+							</tr>
+                                                    <form id="daysForm">
+							<tr  class="spaceUnder">
+								<td align="right" style="width:45%">Best days to contact you:</td>			
+								<td>
+									<input id ="box1" type="checkbox" name="myChoices" value="M"> M
+									<input id ="box2" type="checkbox" name="myChoices" value="T"> T
+									<input id ="box3" type="checkbox" name="myChoices" value="W"> W
+									<input id ="box4" type="checkbox" name="myChoices" value="Th"> Th
+									<input id ="box5" type="checkbox" name="myChoices" value="F"> F
+								</td>
+                                                    </form>
+							</tr>
+							<div class="col-sm-4"></div>
+							<div class="row">
+								<div class="col-sm-4"></div>
+									<div class="col-sm-4">
+										<tr  class="spaceUnder">
+											<td>
+												<p></p>
+											</td>
+											<td> 
+                                                                                <center><button onclick="nameSubmission ()" style="color: black" value="Send Request">Submit</div></center>
+											</td>                  
+										</tr>
+									</table>		
+                                                    <br>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<hr>
+				<br>
+			<div id="blacktext">
+				<div id="footer">
+					<p style="color: yellow"><b>555 Imaginary Lane, State College, Pennsylvania 16801</b></p>
+						<p style="color: yellow"><b>(555) 555-5555</b></p>
+					</div>	
+				</div>
+			</div>
+		<div class="col-sm-4"></div>
+               <script type="text/javascript">
+                function nameSubmission () { 
+                var nameLength = document.forms["nameForm"]["nameInput"].value;
+                if (nameLength == null || nameLength == "") {
+                    alert("Please don't forget to fill out your name.");
+                    contactSubmission ();
+                        } else {
+                        contactSubmission ();
+                    }
+                }
+                function contactSubmission () {
+                var emailLength = document.forms["contactForm"]["emailInput"].value;
+                var phoneLength = document.forms["contactForm"]["phoneInput"].value;
+                if (emailLength + phoneLength == null || emailLength + phoneLength == ""){
+                    alert("Please include at least one means of contact.");
+                    reasonSubmission ();
+                    } else {
+                    reasonSubmission ();
+                           }
+                }
+               function reasonSubmission () {
+               var menu = document.getElementById("selector");
+               var choice = menu.options[menu.selectedIndex].value;
+               if(document.getElementById("addInput").value == null && choice=="4" || document.getElementById("addInput").value == "" && choice=="4"){
+                   alert("Since you have selected 'Other' for your reason, please provide additional information.");
+               } else {
+               daysCheck ();
+              }
+                      }
+               function daysCheck () {
+                     if(document.getElementById("box1").checked == false && document.getElementById("box2").checked == false && document.getElementById("box3").checked == false && document.getElementById("box4").checked == false && document.getElementById("box5").checked == false) {
+                     alert("Please select at least one day you would like us to contact you on.");
+                    } else {
+                     success ();
+                            }
+                    }
+                function success () {
+                    alert("The form has be submitted successfully!");           //If this site were really hosted, all the code for submission of a form would be included.
+                }
+                </script>
+	</body>
+</html> 
